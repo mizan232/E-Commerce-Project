@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  
+}
+.navbar .logo{
+  margin: 20px 15px;
+  font-size: 1rem;
+}
+.searcharea{
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  height: 45px;
+  width: 140px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+  border: 1px solid rgba(167,158,245,0.1);
+  border-radius: 100px;
+  z-index: 1;
+}
+.searchbox input{
+  width: 90px;
+  height: 20px;
+border: none;
+  outline: none;
+  padding: 0px 10px;
+  
+}
+.section1{
+  margin: 50px 0px;
+}
+.section1 .sec-text span{
+  color: blue;
+}
+.section1 .sec-text h1{
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 70px;
+  letter-spacing: 8px;
+}
+
+.section1 .sec-img{
+  margin: 40px auto;
+}
+.sec-img img{
+  width: 80%;
+}
+.sec-icons{
+  position: fixed;
+  top: 230px;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 30px rgba(167,158,245,0.3);
+  border-radius: 100px;
+  z-index: 1;
+  
+}
+.sec-icons a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.product-section{
+  width: 66%;
+  box-shadow: 2px 3px 30px rgba(167,158,245,0.3);
+  background-color: #fff;
+  display: flex;
+  margin: 30px auto;
+  padding: 50px;
+  margin-top: -40px;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+.product-section h1{
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+.product-section span{
+  color: blue;
+}
+.product{
+  margin: 70px 0px;
+  
+  
+}
+.productbox{
+  margin: 50px 0px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 12px;
+  padding-right: 13px;
+  border-radius: 20px;
+  right: 20px;
+}
+.productbox:hover{
+  box-shadow: 5px 6px 25px rgba(167,158,245,0.4);
+}
+.productbox img{
+  width: 80%;
+}
+.productbox a{
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  
+  
+}
+.productbox p{
+  color: gray;
+}
+.btn{
+  height: 30px;
+  width: 120px;
+  background-color: #815ced;
+  padding: 10px;
+  color: white;
+  border-radius: 100px;
+  position: absolute;
+  left: 110px;
+  visibility: hidden;
+}
+.productbox:hover .btn{
+  visibility: visible;
+}
+.commerce h1{
+  height: 100%;
+  width: 40%;
+  font-size: 3.2rem;
+  margin: 10px 20px;
+}
+.commerce  h2{
+  height: 100%;
+  width: 40%;
+  font-weight: 400px;
+  font-size: 2rem;
+  margin: 0px 20px;
+  color: #8e9da1;
+}
+.commerce span{
+  color: blue;
+}
+.commerce p{
+  width: 40%;
+  font-size: 1rem;
+  margin: 0px 20px;
+  color: gray;
+}
+.company-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin: 30px auto;
+  padding: 30px;
+}
+
+.main{
+  text-align: center;
+}
+.main-des{
+  text-align: center;
+  box-shadow: 4px 4px 20px rgba(167,158,245,0.2);
+  position: relative;
+  margin: 20px;
+}
+.main-des input{
+  height: 50px;
+  width: 95%;
+  border-radius: 100px;
+  outline: none;
+  border: 2px solid #ddd;
+  padding: 5px;
+}
+.main input:focus{
+  box-shadow: 5px 5px 30px #ccc;
+}
+.main1{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.main1 button{
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  outline: none;
+  border: #bbb;
+  font-size: 1.2rem;
+}
+.main1 button:hover{
+  transition: 2s;
+  background-color: blue;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
